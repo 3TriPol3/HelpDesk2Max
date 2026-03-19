@@ -34,7 +34,7 @@ class EditUserWindow(tk.Toplevel):
 
         # Настройка окна
         self.title(f"Редактировать ID: {user_id}")
-        self.geometry("460x480")
+        self.geometry("500x700")
         self.resizable(False, False)
         self.configure(bg='#2a2d3b')
 

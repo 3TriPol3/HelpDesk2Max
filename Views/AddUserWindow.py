@@ -32,7 +32,7 @@ class AddUserWindow(tk.Toplevel):
 
         # Настройка окна
         self.title("Создание учётной записи")
-        self.geometry("460x500")
+        self.geometry("500x700")
         self.resizable(False, False)
         self.configure(bg='#2a2d3b')
 

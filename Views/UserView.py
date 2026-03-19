@@ -151,8 +151,8 @@ class UserManagementWindow(tk.Tk):
 
         # Стиль
         style = ttk.Style()
-        style.configure('Treeview', rowheight=25, font=('Segoe UI', 10), background='#3c415e', foreground='white')
-        style.configure('Treeview.Heading', font=('Segoe UI', 10, 'bold'), background='#5e678c', foreground='white')
+        style.configure('Treeview', rowheight=25, font=('Segoe UI', 10), background='#3c415e')
+        style.configure('Treeview.Heading', font=('Segoe UI', 10, 'bold'), background='#5e678c')
         style.map('Treeview', background=[('selected', '#5a6280')])
 
         # Размещение
