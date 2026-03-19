@@ -1,6 +1,5 @@
 from peewee import *
 
-
 def connect():
     try: # удачная попытка
         database = MySQLDatabase(
